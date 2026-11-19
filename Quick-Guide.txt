@@ -1,0 +1,40 @@
+PinDownloader - Quick Guide
+===========================
+
+1. Start
+Double-click PinDownloader_1.4.6.exe. If Windows says "Windows protected your PC", click More info -> Run anyway.
+Antivirus software may warn once - choose allow.
+The app opens on the Single download tab; the window is a fixed size and the maximize button is disabled.
+
+2. What it does
+- Single Pin: paste one Pin link, the app lists every quality Pinterest serves (720w / 540w / 360w / 240w), pick one and download.
+- Batch: paste up to 100 links, they queue up in order with cover thumbnails, and each row shows live progress (bytes, percentage, speed, elapsed time).
+- Profile: paste a profile URL (pinterest.com/username/), fetch the list, then take the first N pins or a range such as No.5 - No.24. "Videos only" is on by default: image Pins are recognised while fetching and skipped, and the log states how many pins total, how many videos, how many non-video ignored.
+- The three tabs keep separate queues and separate logs, so they never mix, and they can run at the same time.
+- Output is a real MP4 (a few HLS-only Pins are muxed locally by the bundled encoder) plus the cover JPG; optional trim range, no watermark.
+- Every record stores the real saved path; if a file is already downloaded and still on disk, the app says so and opens its folder.
+- Default folder is D:\PinDownloadCache (falls back to C:\PinDownloadCache), created on the first download.
+
+3. How to use it
+1) Single: copy the Pin link on Pinterest, paste it into Video URL, press Parse & preview, choose a quality, press Download.
+2) Batch: paste the links one per line on the Batch tab, press Add to queue, press start, watch the queue and the log.
+3) Profile: paste the profile URL, choose first N or a range, keep Videos only ticked, press Fetch list, then start.
+4) The Open button on each row jumps straight to the file or its folder; history keeps the same path.
+
+4. Settings
+Top right: language (English / 中文) and look (Black / Light).
+Download folder, skip already downloaded, one folder per item live above each tab and are remembered automatically.
+
+5. Buying and activating
+The app shows the plans and a Buy now button; payment happens on the PayPal page in your browser, with a fixed amount.
+After paying, send the Machine code shown on that screen to the seller on Telegram @leoli2027. Paste the code you get back and press Activate.
+One code works on one PC. Moving to another computer? Ask the seller first.
+
+6. If something goes wrong
+- Nothing happens when you double-click: right-click the file -> Run as administrator.
+- "Subscription expired": ask the seller to renew.
+- "Failed to fetch the video quality list": the network cannot reach Pinterest right now; retry or switch the proxy node.
+- A profile run full of failures: check that Videos only is ticked - image Pins simply have no video to download.
+- Anything else: message the seller on Telegram.
+
+Support: Telegram @leoli2027 - sharks1039@gmail.com
