@@ -15,8 +15,8 @@ Official website: **https://pin.wangpanmao.com/**
 | **GitHub Releases (recommended)** | [Download `PinDownloader_1.4.6.exe`](https://github.com/sharkskorean/PinDownloader/releases/latest/download/PinDownloader_1.4.6.exe) | direct exe, no login, no quota |
 | Google Drive | [Folder](https://drive.google.com/drive/folders/17vnnw3AalZnsaYLWktMgUkTaJ8nxCbzG?usp=sharing) | no login for this 90.6 MB file |
 | MEGA | [Folder](https://mega.nz/folder/JNgEXZgL#AYNd-EmH9-le1vjyQim8Xg) | no login; free accounts have a 6-hour IP transfer limit |
-| 蓝奏云 Lanzou | [Folder](https://wwboz.lanzouw.com/b009iim6wh) | password **8888** · no login |
-| 百度网盘 Baidu | [Share](https://pan.baidu.com/s/1H4rU-6KrZpFBU-oPY0ig4Q?pwd=emao) | code **emao** · Baidu account + client recommended |
+| Lanzou Cloud | [Folder](https://wwboz.lanzouw.com/b009iim6wh) | password **8888** · no login |
+| Baidu Netdisk | [Share](https://pan.baidu.com/s/1H4rU-6KrZpFBU-oPY0ig4Q?pwd=emao) | code **emao** · Baidu account + client recommended |
 | Website download page | https://pin.wangpanmao.com/#download | lists all mirrors above |
 
 - Windows 10 / 11, 64-bit · single 90.6 MB exe · no installer, no background service
