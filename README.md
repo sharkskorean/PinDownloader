@@ -12,7 +12,7 @@ Official website: **https://pin.wangpanmao.com/**
 
 | Where | Link | Notes |
 |---|---|---|
-| **GitHub Releases (recommended)** | [Download `PinDownloader_1.4.6.exe`](https://github.com/sharkskorean/PinDownloader/releases/latest/download/PinDownloader_1.4.6.exe) | direct exe, no login, no quota |
+| **GitHub Releases (recommended)** | [Download `PinDownloader_1.4.7.exe`](https://github.com/sharkskorean/PinDownloader/releases/latest/download/PinDownloader_1.4.7.exe) | direct exe, no login, no quota |
 | Google Drive | [Folder](https://drive.google.com/drive/folders/17vnnw3AalZnsaYLWktMgUkTaJ8nxCbzG?usp=sharing) | no login for this 90.6 MB file |
 | MEGA | [Folder](https://mega.nz/folder/JNgEXZgL#AYNd-EmH9-le1vjyQim8Xg) | no login; free accounts have a 6-hour IP transfer limit |
 | Lanzou Cloud | [Folder](https://wwboz.lanzouw.com/b009iim6wh) | password **8888** · no login |
@@ -20,7 +20,7 @@ Official website: **https://pin.wangpanmao.com/**
 | Website download page | https://pin.wangpanmao.com/#download | lists all mirrors above |
 
 - Windows 10 / 11, 64-bit · single 90.6 MB exe · no installer, no background service
-- Version **1.4.6** · SHA-256 `910816C6CAD0F60979CC7A624034266D2A30DE70DC38541C5AD836583F6054D3`
+- Version **1.4.7** · SHA-256 `F3204142456C1A592C3BC48CA1D80E59F57350FCB3ABAF7476346DCB0EE9D046`
 - Unsigned build, so SmartScreen shows the usual “unknown publisher” prompt: **More info → Run anyway**
 
 ## What it does
@@ -59,7 +59,7 @@ Other things that matter:
 
 ## Install
 
-1. Download `PinDownloader_1.4.6.exe` from [Releases](releases/latest).
+1. Download `PinDownloader_1.4.7.exe` from [Releases](releases/latest).
 2. Double-click it. If Windows shows “Windows protected your PC”, choose **More info → Run anyway**.
 3. The app opens on the Single download tab. Paste a Pin link, press **Parse & preview**, pick a quality, press **Download**.
 
@@ -78,6 +78,10 @@ Plans and payment: https://pin.wangpanmao.com/#pricing
 - Internet access to Pinterest
 
 ## Changelog
+
+### 1.4.7
+- New app icon: matte-black P with a gold play key in the bowl and a gold download arrow, matching the website
+- No functional change from 1.4.6
 
 ### 1.4.6
 - Window is now truly fixed: maximize removed, resize borders removed, client area locked at 1181×987
