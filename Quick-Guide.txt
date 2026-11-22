@@ -2,7 +2,7 @@ PinDownloader - Quick Guide
 ===========================
 
 1. Start
-Double-click PinDownloader_1.4.7.exe. If Windows says "Windows protected your PC", click More info -> Run anyway.
+Double-click PinDownloader_1.4.31.exe. If Windows says "Windows protected your PC", click More info -> Run anyway.
 Antivirus software may warn once - choose allow.
 The app opens on the Single download tab; the window is a fixed size and the maximize button is disabled.
 
