@@ -12,15 +12,15 @@ Official website: **https://pin.wangpanmao.com/**
 
 | Where | Link | Notes |
 |---|---|---|
-| **GitHub Releases (recommended)** | [Download `PinDownloader_1.4.7.exe`](https://github.com/sharkskorean/PinDownloader/releases/latest/download/PinDownloader_1.4.7.exe) | direct exe, no login, no quota |
-| Google Drive | [Folder](https://drive.google.com/drive/folders/17vnnw3AalZnsaYLWktMgUkTaJ8nxCbzG?usp=sharing) | no login for this 90.6 MB file |
+| **GitHub Releases (recommended)** | [Download `PinDownloader_1.4.31.exe`](https://github.com/sharkskorean/PinDownloader/releases/latest/download/PinDownloader_1.4.31.exe) | direct exe, no login, no quota |
+| Google Drive | [Folder](https://drive.google.com/drive/folders/17vnnw3AalZnsaYLWktMgUkTaJ8nxCbzG?usp=sharing) | no login for this 90.7 MB file |
 | MEGA | [Folder](https://mega.nz/folder/JNgEXZgL#AYNd-EmH9-le1vjyQim8Xg) | no login; free accounts have a 6-hour IP transfer limit |
 | Lanzou Cloud | [Folder](https://wwboz.lanzouw.com/b009iim6wh) | password **8888** · no login |
 | Baidu Netdisk | [Share](https://pan.baidu.com/s/1H4rU-6KrZpFBU-oPY0ig4Q?pwd=emao) | code **emao** · Baidu account + client recommended |
 | Website download page | https://pin.wangpanmao.com/#download | lists all mirrors above |
 
-- Windows 10 / 11, 64-bit · single 90.6 MB exe · no installer, no background service
-- Version **1.4.7** · SHA-256 `F3204142456C1A592C3BC48CA1D80E59F57350FCB3ABAF7476346DCB0EE9D046`
+- Windows 10 / 11, 64-bit · single 90.7 MB exe · no installer, no background service
+- Version **1.4.31** · SHA-256 `E55FAA14F8975734D00B86CF36973134D71808D8EBBE269646D2F5EC3E14DFA4`
 - Unsigned build, so SmartScreen shows the usual “unknown publisher” prompt: **More info → Run anyway**
 
 ## What it does
@@ -59,7 +59,7 @@ Other things that matter:
 
 ## Install
 
-1. Download `PinDownloader_1.4.7.exe` from [Releases](releases/latest).
+1. Download `PinDownloader_1.4.31.exe` from [Releases](releases/latest).
 2. Double-click it. If Windows shows “Windows protected your PC”, choose **More info → Run anyway**.
 3. The app opens on the Single download tab. Paste a Pin link, press **Parse & preview**, pick a quality, press **Download**.
 
@@ -78,6 +78,14 @@ Plans and payment: https://pin.wangpanmao.com/#pricing
 - Internet access to Pinterest
 
 ## Changelog
+
+### 1.4.31
+- Save name refills with the parsed video's own title on every parse, so a run of links produces a run of correct file names; a name you type by hand holds until the next parse
+- Batch and profile mode compose names from title + Pin ID, optionally with author and date, so identical titles never overwrite each other
+- Parsing reworked for long titles and heavy Pin pages: request payload limits and page transfer adjusted, so large pages arrive whole instead of half-parsed
+- Bundled encoder released once into a local cache and reused, so the first trim / merge / audio job of a session starts sooner
+- Interface: English and Chinese, Black and Light skins, collapsible settings block, license state pinned to the top-right corner, fixed 1181x987 window
+- Consolidates every build shipped after 1.4.7 into one executable
 
 ### 1.4.7
 - New app icon: matte-black P with a gold play key in the bowl and a gold download arrow, matching the website
